@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.svg.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="dot.js" type="text/javascript"></script>
+
+    <!--<style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>-->
+    <style type="text/css">
+          body {margin:0; padding:0;} /* remove top and left whitespace */
+          canvas {display:block;}    /* remove scrollbars */
+          canvas:focus {outline:0;} /* remove blue outline around canvas */
+          .fs {position:fixed; bottom:20px; right:20px; height:64px; width:64px;}
+          #enter_btn {display:block;}
+          #exit_btn {display:none;}
+        </style>
+  </head>
+  <body>
+    <img id="enter_btn" class="fs" src="data/arrow-expand.png">
+    <img id="exit_btn" class="fs" src="data/arrow-shrink.png">
+  </body>
+</html>
