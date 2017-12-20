@@ -1,12 +1,12 @@
-#AIML tracking visualisation
+# AIML tracking visualisation
 
 Using the OpenCV Processing library to do background subtraction and identify features such as faces and human bodies.
 
-##Prerequisites
+## Prerequisites
 
 It is necessary to install the OpenCV and video libraries in Processing.
 
-##Installation on Linux
+## Installation on Linux
 
 On some Linux distributions (Ubuntu for instance) some libraries needed by the Processing video library are not installed by default.
 
