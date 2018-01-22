@@ -45,6 +45,7 @@ void draw() {
   scale(width*2/x);
   opencv1.loadImage(video);
   opencv2.loadImage(video);
+  opencv3.loadImage(video);
   
   //image(video, 0, 0 );
   
